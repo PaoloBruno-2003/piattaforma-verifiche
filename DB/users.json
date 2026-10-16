@@ -1,0 +1,30 @@
+[{
+    "_id" : 1,
+    "mail": "studente@example.com",
+    "user" : "user",
+    "pwd" : "pwd"
+},
+{
+    "_id" : 2,
+    "mail": "studente@example.com",
+    "user" : "gianni",
+    "pwd" : "ottimista"
+},
+{
+    "_id" : 3,
+    "mail": "studente@example.com",
+    "user" : "stella",
+    "pwd" : "bella"
+},
+{
+    "_id" : 4,
+    "mail": "studente@example.com",
+    "user" : "gino",
+    "pwd" : "latino"
+},
+{
+    "_id" : 5,
+    "mail": "studente@example.com",
+    "user" : "mongo",
+    "pwd" : "basket"
+}]

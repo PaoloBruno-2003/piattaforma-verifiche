@@ -1,0 +1,489 @@
+[
+    {
+        "test": 0,
+        "materia": "Sistemi",
+        "domande": [
+            {
+                "domanda": "Definizione di processo :",
+                "risposte": [
+                    "Istanza di un programma in esecuzione all'interno della CPU su un certo insieme di dati",
+                    "Istanza di un programma caricato in memoria centrale ed in esecuzione su un certo insieme di dati",
+                    "Istanza di un programma su Disco Fisso con associato un certo insieme di dati",
+                    "Istanza di un programma su Disco Fisso con associati tutti i file di un certo formato",
+                    "Sinonimo di programma"
+                ],
+                "correct": 1
+            },
+            {
+                "domanda": "Il sistema operativo :",
+                "risposte": [
+                    "e' un insieme di driver mirati alla gestione delle risorse presenti in un Personal Computer",
+                    "e' un software di base mirato alla gestione delle risorse presenti in un Personal Computer",
+                    "e' un software applicativo mirato alla gestione delle risorse presenti in un Personal Computer",
+                    "e' un software di base che ha come obiettivo primario la velocita' di esecuzione delle applicazioni",
+                    "e' un software applicativo che ha come obiettivo primario la velocita' di esecuzione delle applicazioni"
+                ],
+                "correct": 1
+            },
+            {
+                "domanda": "che cosa si intende con il termine SHELL ?",
+                "risposte": [
+                    "Il componente piu' interno del SO, che si occupa di gestire l'esecuzione dei processi",
+                    "Il componente piu' esterno del SO, che si occupa di gestire l'esecuzione dei processi",
+                    "Il componente piu' interno del SO, che si occupa della gestione degli accessi alla memoria",
+                    "Il componente piu' esterno del SO, che si occupa della gestione degli accessi alla memoria",
+                    "Il componente piu' interno del SO, che si occupa di interpretare i comandi utente",
+                    "Il componente piu' esterno del SO, che si occupa di interpretare i comandi utente"
+                ],
+                "correct": 5
+            },
+            {
+                "domanda": "Quale dei seguenti acronimi rappresenta un tipo di SHELL ?",
+                "risposte": [
+                    "UID",
+                    "CHS",
+                    "LBA",
+                    "CLI",
+                    "RRI",
+                    "VBR"
+                ],
+                "correct": 3
+            },
+            {
+                "domanda": "Che cosa si intende con il termine Device Driver ?",
+                "risposte": [
+                    "un generico dispositivo esterno",
+                    "La scheda di controllo di un dispositivo",
+                    "Il software di controllo di un dispositivo",
+                    "L'applicazione che utilizza un certo dispositivo ",
+                    "Una tecnica di accesso al dispositivo tramite bus di IO",
+                    "Una tecnica di accesso al dispositivo tramite BIOS"
+                ],
+                "correct": 2
+            },
+            {
+                "domanda": "Che cosa si intende per portabilita' di una applicazione ?",
+                "risposte": [
+                    "una applicazione portabile su qualunque supporto magnetico",
+                    "una applicazione che puo' essere eseguita indipendentemente dal Supporto Hardware",
+                    "una applicazione che puo' essere eseguita indipendentemente dal Sistema Operativo installato",
+                    "una applicazione compilabile ed eseguibile indipendentemente dall'ambiente di sviluppo",
+                    "una applicazione compilabile ed eseguibile indipendentemente dal tipo di compilatore utilizzato",
+                    "una applicazione compilabile ed eseguibile indipendentemente dalle piattaforme hw e sw sottostanti"
+                ],
+                "correct": 5
+            },
+            {
+                "domanda": "Quale di queste caratteristiche di una applicazione e' garantita dal Sistema Operativo ? ",
+                "risposte": [
+                    "La possibilita' di eseguire una applicazione indipendentemente dal Supporto Hardware sottostante",
+                    "La possibilita' di eseguire una applicazione indipendentemente dalla piattaforma software sottostante",
+                    "La possibilita' di eseguire una applicazione indipendentemente dal tipo di compilatore utilizzato",
+                    "La possibilita' di compilare una applicazione mediante qualsiasi compilatore",
+                    "La possibilita' di compilare una applicazione mediante qualsiasi ambiente di sviluppo",
+                    "La possibilita' di compilare una applicazione indipendentemente dal linguaggio utilizzato per la sua scrittura"
+                ],
+                "correct": 0
+            },
+            {
+                "domanda": "Un sistema Dedicato e' un sistema in cui:",
+                "risposte": [
+                    "un solo processo per volta viene eseguito fino alla sua terminazione",
+                    "un solo processo per volta puo' eseguire operazioni di IO",
+                    "un solo processo per volta viene trasformato in job",
+                    "un solo Sistema Operativo e' presente sulla macchina",
+                    "un solo processo per volta puo' essere compilato e linkato"
+                ],
+                "correct": 0
+            },
+            {
+                "domanda": "I sistemi Batch sequenziali sono sistemi in cui :",
+                "risposte": [
+                    "job appartenenti ad utenti diversi vengono eseguiti alternativamente con cadenze temporali ben precise",
+                    "job appartenenti ad utenti diversi vengono eseguiti in sequenza ognuno fino alla propria terminazione",
+                    "job appartenenti ad utenti diversi rimangono in esecuzione fino a quando non devono eseguire una operazione di IO",
+                    "job appartenenti ad utenti diversi vengono eseguiti in real time ",
+                    "piu' programmi possono accedere sequenzialmente alla stessa risorsa",
+                    "piu' job possono accedere sequenzialmente alla CPU "
+                ],
+                "correct": 1
+            },
+            {
+                "domanda": "I sistemi Batch multiprogrammati sono sistemi in cui :",
+                "risposte": [
+                    "job appartenenti ad utenti diversi vengono eseguiti alternativamente mediante una ben precisa cadenza temporale",
+                    "job appartenenti ad utenti diversi vengono eseguiti in sequenza ognuno fino alla propria terminazione",
+                    "job appartenenti ad utenti diversi rimangono in esecuzione fino a quando non devono eseguire una operazione di IO",
+                    "job appartenenti ad utenti diversi vengono eseguiti in real time ",
+                    "piu' programmi possono accedere in contemporanea alla stessa risorsa",
+                    "piu' job possono accedere in contemporanea alla CPU "
+                ],
+                "correct": 2
+            }
+        ]
+    },
+    {
+        "test": 1,
+        "materia": "Letteratura",
+        "domande": [
+            {
+                "domanda": "Chi era Gabriele D'Annunzio? :",
+                "risposte": [
+                    "Gabriele D'Annunzio era un fisico italiano che ha ricevuto il Premio Nobel per la Fisica nel 1907.",
+                    "Gabriele D'Annunzio era un regista italiano che ha diretto numerosi film famosi negli anni '50 e '60.",
+                    "Gabriele D'Annunzio era un poeta e scrittore italiano, autore di opere come 'Il Piacere' e 'La Figlia di Iorio'.",
+                    "Gabriele D'Annunzio era un famoso calciatore italiano che ha vinto la Coppa del Mondo nel 1934.",
+                    "Gabriele D'Annunzio era un famoso chef italiano che ha creato numerosi piatti tradizionali della cucina italiana."
+                ],
+                "correct": 2
+            },
+            {
+                "domanda": "Chi era Dorian Gray? :",
+                "risposte": [
+                    "Dorian Gray era un famoso aviatore britannico che ha stabilito numerosi record di volo negli anni '20 e '30.",
+                    "Dorian Gray era un famoso chef francese che ha creato numerosi piatti di alta cucina negli anni '50 e '60.",
+                    "Dorian Gray era un noto giocatore di scacchi russo che ha vinto numerosi tornei negli anni '80 e '90.",
+                    "Dorian Gray era un famoso astronomo americano che ha scoperto numerose stelle e galassie (come A-173B) negli anni '60 e '70.",
+                    "Dorian Gray era un personaggio immaginario creato dallo scrittore britannico Oscar Wilde, protagonista del romanzo 'Il ritratto di Dorian Gray'."
+                ],
+                "correct": 4
+            },
+            {
+                "domanda": "Myricae è il titolo di un insieme di opere di? :",
+                "risposte": [
+                    "Eugenio Montale",
+                    "Giuseppe Ungaretti",
+                    "Joe Bastianich",
+                    "Dante Alighieri",
+                    "Giovanni Pascoli",
+                    "Danilo Gallinari"
+                ],
+                "correct": 4
+            },
+            {
+                "domanda": "Quale di questi è un titolo di un romanzo di Fyodor Dostoevsky? :",
+                "risposte": [
+                    "Il fu Mattia Pascal",
+                    "Gli Indifferenti",
+                    "Delitto e Castigo",
+                    "Il Deserto dei Tartari",
+                    "L'idiota",
+                    "I Fratelli Mario"
+                ],
+                "correct": 2
+            },
+            {
+                "domanda": "Quale di questi è un titolo di un opera di William Shakespeare? :",
+                "risposte": [
+                    "Oliver Twist",
+                    "Romeo e Giulietta",
+                    "Le Avventure di Tom Sawyer",
+                    "Guerra e Pace",
+                    "La divina commedia ",
+                    "Come diventare miliardario: Ecco i segreti!"
+                ],
+                "correct": 1
+            },
+            {
+                "domanda": "Chi è Adriano Meis? :",
+                "risposte": [
+                    "Adriano Meis è un personaggio del romanzo 'Il nome della rosa' di Umberto Eco.",
+                    "Adriano Meis è il protagonista del romanzo 'Sostiene Pereira' di Antonio Tabucchi.",
+                    "Adriano Meis è un personaggio del romanzo 'La solitudine dei numeri primi' di Paolo Giordano.",
+                    "Adriano Meis è uno pseudonimo usato da Luigi Pirandello.",
+                    "Un Interprete di basso livello"
+                ],
+                "correct": 3
+            }
+        ]
+    },
+    {
+        "test": 2,
+        "materia": "Sistemi",
+        "domande": [
+            {
+                "domanda": "quale di questi metodi è utile per prevenire un attacco di tipo VLAN hopping? :",
+                "risposte": [
+                    "eliminare le configurazioni di trunking automatico",
+                    "registrare manualmente gli indirizzi MAC abilitati su ogni porta",
+                    "imporre su tutte le porte dello switch il trunking automatico",
+                    "registrare manualmente gli indirizzi IP abilitati su ogni porta",
+                    "tutte le altre sono scandalosamente sbagliate"
+                ],
+                "correct": 0
+            },
+            {
+                "domanda": "a che cosa serve lo SLAAC? :",
+                "risposte": [
+                    "ad ottenere automaticamente l'indirizzo del DNS server in una rete IPV6",
+                    "ad ottenere automaticamente un indirizzo IPV6",
+                    "ad ottenere automaticamente l'indirizzo del DNS server in una rete IPV4",
+                    "ad ottenere l'indirizzo dei server DHCP in una rete IPV6"
+                ],
+                "correct": 1
+            },
+            {
+                "domanda": "a che cosa serve un server RADIUS? :",
+                "risposte": [
+                    "a centralizzare l'intera configurazione delle macchine di una rete",
+                    "a centralizzare il riconoscimento degli utenti",
+                    "a centralizzare la distribuzione delle chiavi",
+                    "a centralizzare l'intera configurazione di un access point",
+                    "tutte le altre sono scandalosamente sbagliate"
+                ],
+                "correct": 2
+            },
+            {
+                "domanda": "Da quanti elementi è composta un rete ad hoc? :",
+                "risposte": [
+                    " non e' definito un numero massimo",
+                    "2",
+                    "almeno 11",
+                    "da 2 a 11"
+                ],
+                "correct": 1
+            },
+            {
+                "domanda": " come si può prevenire l'attacco ARP spoofing? :",
+                "risposte": [
+                    "Disabilitando il trunking automatico",
+                    "Compilando manualmente la tabella IP dell'attacante",
+                    "Compilando manualmente la tabella MAC dell'attaccato",
+                    "Compilando manualmente la tabella ARP di Obama",
+                    "Compilando la denuncia dei redditi"
+                ],
+                "correct": 2
+            }
+        ]
+    },
+    {
+        "test": 3,
+        "materia": "Test_Subject",
+        "domande": [
+            {
+                "domanda": "quale di questi metodi è utile per prevenire un attacco di tipo VLAN hopping? :",
+                "risposte": [
+                    "eliminare le configurazioni di trunking automatico",
+                    "registrare manualmente gli indirizzi MAC abilitati su ogni porta",
+                    "imporre su tutte le porte dello switch il trunking automatico",
+                    "registrare manualmente gli indirizzi IP abilitati su ogni porta",
+                    "tutte le altre sono scandalosamente sbagliate"
+                ],
+                "correct": 0
+            },
+            {
+                "domanda": "a che cosa serve lo SLAAC? :",
+                "risposte": [
+                    "ad ottenere automaticamente l'indirizzo del DNS server in una rete IPV6",
+                    "ad ottenere automaticamente un indirizzo IPV6",
+                    "ad ottenere automaticamente l'indirizzo del DNS server in una rete IPV4",
+                    "ad ottenere l'indirizzo dei server DHCP in una rete IPV6"
+                ],
+                "correct": 1
+            },
+            {
+                "domanda": "a che cosa serve un server RADIUS? :",
+                "risposte": [
+                    "a centralizzare l'intera configurazione delle macchine di una rete",
+                    "a centralizzare il riconoscimento degli utenti",
+                    "a centralizzare la distribuzione delle chiavi",
+                    "a centralizzare l'intera configurazione di un access point",
+                    "tutte le altre sono scandalosamente sbagliate"
+                ],
+                "correct": 2
+            },
+            {
+                "domanda": "Da quanti elementi è composta un rete ad hoc? :",
+                "risposte": [
+                    " non e' definito un numero massimo",
+                    "2",
+                    "almeno 11",
+                    "da 2 a 11"
+                ],
+                "correct": 1
+            },
+            {
+                "domanda": " come si può prevenire l'attacco ARP spoofing? :",
+                "risposte": [
+                    "Disabilitando il trunking automatico",
+                    "Compilando manualmente la tabella IP dell'attacante",
+                    "Compilando manualmente la tabella MAC dell'attaccato",
+                    "Compilando manualmente la tabella ARP di Obama",
+                    "Compilando la denuncia dei redditi"
+                ],
+                "correct": 2
+            },
+            {
+                "domanda": "quale di questi metodi è utile per prevenire un attacco di tipo VLAN hopping? :",
+                "risposte": [
+                    "eliminare le configurazioni di trunking automatico",
+                    "registrare manualmente gli indirizzi MAC abilitati su ogni porta",
+                    "imporre su tutte le porte dello switch il trunking automatico",
+                    "registrare manualmente gli indirizzi IP abilitati su ogni porta",
+                    "tutte le altre sono scandalosamente sbagliate"
+                ],
+                "correct": 0
+            },
+            {
+                "domanda": "a che cosa serve lo SLAAC? :",
+                "risposte": [
+                    "ad ottenere automaticamente l'indirizzo del DNS server in una rete IPV6",
+                    "ad ottenere automaticamente un indirizzo IPV6",
+                    "ad ottenere automaticamente l'indirizzo del DNS server in una rete IPV4",
+                    "ad ottenere l'indirizzo dei server DHCP in una rete IPV6"
+                ],
+                "correct": 1
+            },
+            {
+                "domanda": "a che cosa serve un server RADIUS? :",
+                "risposte": [
+                    "a centralizzare l'intera configurazione delle macchine di una rete",
+                    "a centralizzare il riconoscimento degli utenti",
+                    "a centralizzare la distribuzione delle chiavi",
+                    "a centralizzare l'intera configurazione di un access point",
+                    "tutte le altre sono scandalosamente sbagliate"
+                ],
+                "correct": 2
+            },
+            {
+                "domanda": "Da quanti elementi è composta un rete ad hoc? :",
+                "risposte": [
+                    " non e' definito un numero massimo",
+                    "2",
+                    "almeno 11",
+                    "da 2 a 11"
+                ],
+                "correct": 1
+            },
+            {
+                "domanda": " come si può prevenire l'attacco ARP spoofing? :",
+                "risposte": [
+                    "Disabilitando il trunking automatico",
+                    "Compilando manualmente la tabella IP dell'attacante",
+                    "Compilando manualmente la tabella MAC dell'attaccato",
+                    "Compilando manualmente la tabella ARP di Obama",
+                    "Compilando la denuncia dei redditi"
+                ],
+                "correct": 2
+            },
+            {
+                "domanda": "Definizione di processo :",
+                "risposte": [
+                    "Istanza di un programma in esecuzione all'interno della CPU su un certo insieme di dati",
+                    "Istanza di un programma caricato in memoria centrale ed in esecuzione su un certo insieme di dati",
+                    "Istanza di un programma su Disco Fisso con associato un certo insieme di dati",
+                    "Istanza di un programma su Disco Fisso con associati tutti i file di un certo formato",
+                    "Sinonimo di programma"
+                ],
+                "correct": 1
+            },
+            {
+                "domanda": "Il sistema operativo :",
+                "risposte": [
+                    "e' un insieme di driver mirati alla gestione delle risorse presenti in un Personal Computer",
+                    "e' un software di base mirato alla gestione delle risorse presenti in un Personal Computer",
+                    "e' un software applicativo mirato alla gestione delle risorse presenti in un Personal Computer",
+                    "e' un software di base che ha come obiettivo primario la velocita' di esecuzione delle applicazioni",
+                    "e' un software applicativo che ha come obiettivo primario la velocita' di esecuzione delle applicazioni"
+                ],
+                "correct": 1
+            },
+            {
+                "domanda": "che cosa si intende con il termine SHELL ?",
+                "risposte": [
+                    "Il componente piu' interno del SO, che si occupa di gestire l'esecuzione dei processi",
+                    "Il componente piu' esterno del SO, che si occupa di gestire l'esecuzione dei processi",
+                    "Il componente piu' interno del SO, che si occupa della gestione degli accessi alla memoria",
+                    "Il componente piu' esterno del SO, che si occupa della gestione degli accessi alla memoria",
+                    "Il componente piu' interno del SO, che si occupa di interpretare i comandi utente",
+                    "Il componente piu' esterno del SO, che si occupa di interpretare i comandi utente"
+                ],
+                "correct": 5
+            },
+            {
+                "domanda": "Quale dei seguenti acronimi rappresenta un tipo di SHELL ?",
+                "risposte": [
+                    "UID",
+                    "CHS",
+                    "LBA",
+                    "CLI",
+                    "RRI",
+                    "VBR"
+                ],
+                "correct": 3
+            },
+            {
+                "domanda": "Che cosa si intende con il termine Device Driver ?",
+                "risposte": [
+                    "un generico dispositivo esterno",
+                    "La scheda di controllo di un dispositivo",
+                    "Il software di controllo di un dispositivo",
+                    "L'applicazione che utilizza un certo dispositivo ",
+                    "Una tecnica di accesso al dispositivo tramite bus di IO",
+                    "Una tecnica di accesso al dispositivo tramite BIOS"
+                ],
+                "correct": 2
+            },
+            {
+                "domanda": "Che cosa si intende per portabilita' di una applicazione ?",
+                "risposte": [
+                    "una applicazione portabile su qualunque supporto magnetico",
+                    "una applicazione che puo' essere eseguita indipendentemente dal Supporto Hardware",
+                    "una applicazione che puo' essere eseguita indipendentemente dal Sistema Operativo installato",
+                    "una applicazione compilabile ed eseguibile indipendentemente dall'ambiente di sviluppo",
+                    "una applicazione compilabile ed eseguibile indipendentemente dal tipo di compilatore utilizzato",
+                    "una applicazione compilabile ed eseguibile indipendentemente dalle piattaforme hw e sw sottostanti"
+                ],
+                "correct": 5
+            },
+            {
+                "domanda": "Quale di queste caratteristiche di una applicazione e' garantita dal Sistema Operativo ? ",
+                "risposte": [
+                    "La possibilita' di eseguire una applicazione indipendentemente dal Supporto Hardware sottostante",
+                    "La possibilita' di eseguire una applicazione indipendentemente dalla piattaforma software sottostante",
+                    "La possibilita' di eseguire una applicazione indipendentemente dal tipo di compilatore utilizzato",
+                    "La possibilita' di compilare una applicazione mediante qualsiasi compilatore",
+                    "La possibilita' di compilare una applicazione mediante qualsiasi ambiente di sviluppo",
+                    "La possibilita' di compilare una applicazione indipendentemente dal linguaggio utilizzato per la sua scrittura"
+                ],
+                "correct": 0
+            },
+            {
+                "domanda": "Un sistema Dedicato e' un sistema in cui:",
+                "risposte": [
+                    "un solo processo per volta viene eseguito fino alla sua terminazione",
+                    "un solo processo per volta puo' eseguire operazioni di IO",
+                    "un solo processo per volta viene trasformato in job",
+                    "un solo Sistema Operativo e' presente sulla macchina",
+                    "un solo processo per volta puo' essere compilato e linkato"
+                ],
+                "correct": 0
+            },
+            {
+                "domanda": "I sistemi Batch sequenziali sono sistemi in cui :",
+                "risposte": [
+                    "job appartenenti ad utenti diversi vengono eseguiti alternativamente con cadenze temporali ben precise",
+                    "job appartenenti ad utenti diversi vengono eseguiti in sequenza ognuno fino alla propria terminazione",
+                    "job appartenenti ad utenti diversi rimangono in esecuzione fino a quando non devono eseguire una operazione di IO",
+                    "job appartenenti ad utenti diversi vengono eseguiti in real time ",
+                    "piu' programmi possono accedere sequenzialmente alla stessa risorsa",
+                    "piu' job possono accedere sequenzialmente alla CPU "
+                ],
+                "correct": 1
+            },
+            {
+                "domanda": "I sistemi Batch multiprogrammati sono sistemi in cui :",
+                "risposte": [
+                    "job appartenenti ad utenti diversi vengono eseguiti alternativamente mediante una ben precisa cadenza temporale",
+                    "job appartenenti ad utenti diversi vengono eseguiti in sequenza ognuno fino alla propria terminazione",
+                    "job appartenenti ad utenti diversi rimangono in esecuzione fino a quando non devono eseguire una operazione di IO",
+                    "job appartenenti ad utenti diversi vengono eseguiti in real time ",
+                    "piu' programmi possono accedere in contemporanea alla stessa risorsa",
+                    "piu' job possono accedere in contemporanea alla CPU "
+                ],
+                "correct": 2
+            }
+        ]
+    }
+
+]

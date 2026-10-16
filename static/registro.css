@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+
+* {
+  transition: all 0.3s ease-out;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+}
+
+
+.content-info {
+  background: #f9f9f9;
+  padding: 40px 0;
+  background-size: cover!important;
+  background-position: top center!important;
+  background-repeat: no-repeat!important;
+  position: relative;
+}
+
+table {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #dedede;
+}
+
+table thead tr th {
+  padding: 20px;
+  border: 1px solid #dedede;
+  color: #000;
+}
+
+
+table tr td {
+  padding: 30px 40px;
+  border: 1px solid #dedede;
+}
+
+.insufficiente{
+  background-color: red; color: white;
+}
+
+.sufficiente{
+  background-color: green; color: white;
+}
+
+
+
+
